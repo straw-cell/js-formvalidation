@@ -1,0 +1,35 @@
+body {
+  background: #aab6ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .search {
+    padding: 0px 20px;
+    background-color: #fff;
+    border-radius: 100px;
+
+    input {
+      font-size: 30px;
+      padding: 5px 0px;
+      border: none;
+      outline: none;
+    }
+  }
+
+  .notification {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: sans-serif;
+  }
+}
